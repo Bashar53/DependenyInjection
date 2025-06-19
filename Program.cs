@@ -22,7 +22,6 @@ public class CustomerBusinessLogic
     {
         _customerDataAcess = customerDataAcess;
     }
-  
     public string ProcessCustomerData(int id)
     {
         return _customerDataAcess.GetCustomerName(id);
